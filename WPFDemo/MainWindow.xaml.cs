@@ -36,7 +36,8 @@ namespace WPFDemo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello World");
+            string personData = $"Name: {person.Name}, Age: {person.Age}";
+            MessageBox.Show(personData);
         }
     }
 
